@@ -1,0 +1,42 @@
+Chap 1
+C is written by machine code
+The implementation of C involves compiling and linking.
+The compilers compile the code to immediate code,
+    and the linker links the immediate code to the machine code.
+The machine code is then executed by the computer.
+
+So your code is combined with the start-up code(The code that works as an
+        interface between the OS and the C code) and the standard library code
+Then all three is called the machine code when brought together with linker.
+
+Chap 2
+5 types of statement in C language:
+1. Declaration
+2. Assignment
+3. Function
+4. Control
+5. Null
+
+Chap03
+3 type of adjective keywords to modify int type:
+1. short -- use less space
+2. long -- use more space
+3. unsigned -- nonnegative values
+
+Chap04
+1. C has no variable type for string, instead it's an array of characters.
+2. The string is terminated by a null character '\0', C use it to determine the
+    end of the string.
+3. So the length of the string is the number of characters before the null
+    character. 
+4. The number of bytes is the length of the string plus 1.
+5. Array is an ordered collection of elements of the same type.
+5. The string is a pointer to the first character of the string.
+6. string "x" and character 'x' are different. The former is an array of
+    characters, the latter is a single character. "x" contains 2 characters,'x'
+    and '\0'.
+7. sizeof operator returns the number of bytes of the variable; strlen
+    function returns the number of characters of the string.
+8. The scanf function uses whitespace to separate the input, so it can't read
+    the string with whitespace. However, %c can read the whitespace.:q
+
