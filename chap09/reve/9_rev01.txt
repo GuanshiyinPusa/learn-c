@@ -1,0 +1,5 @@
+What is the difference between an actual argument and a formal parameter?
++=======================================================================+
+Answer: An actual argument is the value that is passed to a function when it
+is called. A formal parameter is a variable that is used in the function
+definition to represent the value that is passed to the function.
