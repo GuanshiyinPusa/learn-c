@@ -4,8 +4,9 @@
 int find_largest_index(double *array, int size);
 
 int main(void) {
-	printf("%d\n",
-		   find_largest_index((double[]){2.4, 3.4, 5.7, 7.2, 0.1, 0.2}, 6));
+	printf(
+		"%d\n",
+		find_largest_index((double[]){2.4, 3.4, 5.7, 7.2, 0.1, 0.2}, 6));
 }
 
 int find_largest_index(double *array, int size) {

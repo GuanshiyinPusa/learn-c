@@ -98,12 +98,15 @@ int main() {
 
 	// Display purchase information
 	printf("\nPurchase Summary:\n");
-	printf("Artichokes: %.2lf lbs at $%.2lf/lb = $%.2lf\n", poundsArtichokes,
-		   PRICE_PER_POUND_ARTICHOKE, costArtichokes);
-	printf("Beets: %.2lf lbs at $%.2lf/lb = $%.2lf\n", poundsBeets,
-		   PRICE_PER_POUND_BEET, costBeets);
-	printf("Carrots: %.2lf lbs at $%.2lf/lb = $%.2lf\n", poundsCarrots,
-		   PRICE_PER_POUND_CARROT, costCarrots);
+	printf(
+		"Artichokes: %.2lf lbs at $%.2lf/lb = $%.2lf\n", poundsArtichokes,
+		PRICE_PER_POUND_ARTICHOKE, costArtichokes);
+	printf(
+		"Beets: %.2lf lbs at $%.2lf/lb = $%.2lf\n", poundsBeets,
+		PRICE_PER_POUND_BEET, costBeets);
+	printf(
+		"Carrots: %.2lf lbs at $%.2lf/lb = $%.2lf\n", poundsCarrots,
+		PRICE_PER_POUND_CARROT, costCarrots);
 	printf("Total cost of vegetables: $%.2lf\n", totalCost);
 	printf("Discount: -$%.2lf\n", discount);
 	printf("Shipping: $%.2lf\n", shipping);

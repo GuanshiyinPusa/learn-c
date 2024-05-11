@@ -20,8 +20,8 @@ int main(void) {
 											/* how many spaces to skip */
 	show_n_char(SPACE, spaces);				/* use a variable as an argument */
 	printf("%s\n", ADDRESS);
-	show_n_char(SPACE,
-				(WIDTH - strlen(PLACE)) / 2); /* an expression as an argument */
+	show_n_char(
+		SPACE, (WIDTH - strlen(PLACE)) / 2); /* an expression as an argument */
 
 	printf("%s\n", PLACE);
 	show_n_char('*', WIDTH);

@@ -9,8 +9,9 @@
 #define SIZE 5
 
 void print_array(const int *arr, int n);
-void copy_ar(int target[], const int source[], int size, int source_start,
-			 int source_end);
+void copy_ar(
+	int target[], const int source[], int size, int source_start,
+	int source_end);
 
 int main(void) {
 	int array[SIZE] = {1, 2, 3, 4, 5};
@@ -20,8 +21,9 @@ int main(void) {
 	print_array(target, 3);
 }
 
-void copy_ar(int *target, const int *source, int size, int source_start,
-			 int source_end) {
+void copy_ar(
+	int *target, const int *source, int size, int source_start,
+	int source_end) {
 	int length = source_end - source_end + 1;
 	if (length || length > size)
 		return;

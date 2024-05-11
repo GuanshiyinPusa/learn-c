@@ -38,8 +38,9 @@ int main(void) {
 	mtime = (double)time / distm;
 	mmin = (int)mtime / S_PER_M; // find whole minutes
 	msec = (int)mtime % S_PER_M; // find remaining seconds
-	printf("You ran %1.2f km (%1.2f miles) in %d min, %d sec.\n", distk, distm,
-		   min, sec);
+	printf(
+		"You ran %1.2f km (%1.2f miles) in %d min, %d sec.\n", distk, distm,
+		min, sec);
 	printf("That pace corresponds to running a mile in %d min, ", mmin);
 	printf("%d sec.\nYour average speed was %1.2f mph.\n", msec, rate);
 	return 0;

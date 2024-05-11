@@ -16,9 +16,10 @@ int main(void) {
 	scanf("%f", &speed);
 	printf("Please enter the size of a file in megabytes (MB):\n");
 	scanf("%f", &size);
-	printf("At %.2f megabits per second, a file of %.2f megabytes\n"
-		   "downloads in %.2f seconds.\n",
-		   speed, size, size * 8 / speed);
+	printf(
+		"At %.2f megabits per second, a file of %.2f megabytes\n"
+		"downloads in %.2f seconds.\n",
+		speed, size, size * 8 / speed);
 
 	return 0;
 }

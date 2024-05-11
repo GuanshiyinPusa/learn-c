@@ -18,8 +18,8 @@ int main(void) {
 		current = 2.0 * current;
 		/* double grains on next square */
 		total = total + current; /* update total */
-		printf("%4d %13.2e %12.2e %12.2e\n", count, current, total,
-			   total / CROP);
+		printf(
+			"%4d %13.2e %12.2e %12.2e\n", count, current, total, total / CROP);
 	}
 	printf("That's all.\n");
 	return 0;

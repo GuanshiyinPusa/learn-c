@@ -1,6 +1,5 @@
 BasedOnStyle: LLVM
-Language: C
-Standard: C99
+SeparateDefinitionBlocks: Always
 AlignAfterOpenBracket: AlwaysBreak
 SortIncludes: true
 IndentWidth: 4

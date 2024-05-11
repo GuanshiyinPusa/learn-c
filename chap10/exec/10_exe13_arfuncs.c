@@ -54,8 +54,8 @@ void fill_array(double (*array)[COLS], int rows) {
 	printf("Please enter %d x %d values for the array:\n", rows, COLS);
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < COLS; j++) {
-			printf("Enter value for element at position (%d, %d): ", i + 1,
-				   j + 1);
+			printf(
+				"Enter value for element at position (%d, %d): ", i + 1, j + 1);
 			scanf("%lf", (*(array + i) + j));
 		}
 	}

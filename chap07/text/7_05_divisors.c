@@ -12,8 +12,9 @@ int main(void) {
 		for (div = 2, isPrime = true; (div * div) <= num; div++) {
 			if (num % div == 0) {
 				if ((div * div) != num)
-					printf("%lu is divisible by %lu and %lu.\n", num, div,
-						   num / div);
+					printf(
+						"%lu is divisible by %lu and %lu.\n", num, div,
+						num / div);
 				else
 					printf("%lu is divisible by %lu.\n", num, div);
 				isPrime = false; // number is not prime

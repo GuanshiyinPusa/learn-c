@@ -25,6 +25,7 @@ int main(void) {
 			continue;
 		}
 	}
-	printf("\nAverage number of letters per word: %.2f\n",
-		   (float)total_alpha / word_counter);
+	printf(
+		"\nAverage number of letters per word: %.2f\n",
+		(float)total_alpha / word_counter);
 }

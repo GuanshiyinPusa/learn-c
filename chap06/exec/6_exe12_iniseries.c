@@ -27,10 +27,12 @@ int main(void) {
 				sum2 += 1.0 / i;
 			}
 		}
-		printf("The sum of the first series up to %d terms is %.5f\n", limit,
-			   sum1);
-		printf("The sum of the second series up to %d terms is %.5f\n", limit,
-			   sum2);
+		printf(
+			"The sum of the first series up to %d terms is %.5f\n", limit,
+			sum1);
+		printf(
+			"The sum of the second series up to %d terms is %.5f\n", limit,
+			sum2);
 		printf("Enter the limit of number of terms: ");
 		scanf("%d", &limit);
 	}

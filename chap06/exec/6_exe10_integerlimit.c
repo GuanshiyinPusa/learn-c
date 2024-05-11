@@ -26,8 +26,9 @@ int main() {
 		for (int i = lower; i <= upper; i++) {
 			sum += i * i;
 		}
-		printf("The sums of the squares from %d to %d is %d\n", lower * lower,
-			   upper * upper, sum);
+		printf(
+			"The sums of the squares from %d to %d is %d\n", lower * lower,
+			upper * upper, sum);
 		printf("Enter next set of limits: ");
 		scanf("%d %d", &lower, &upper);
 	}

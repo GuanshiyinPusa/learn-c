@@ -4,7 +4,6 @@
 #define LIM 5
 
 int main(void) {
-	// array of five pointers, take 40 bytes.
 	const char *mytalents[LIM] = {
 		"Adding numbers swiftly",
 		"Multiplying accurately",
@@ -12,7 +11,6 @@ int main(void) {
 		"Following instructions to the letter",
 		"Understanding the C language",
 	};
-	// array of 5 array, take 200 bytes.
 	char yourtalents[LIM][SLEN] = {
 		"Walking in a straight line",
 		"Sleeping",
@@ -30,18 +28,14 @@ int main(void) {
 		sizeof(yourtalents));
 	return 0;
 }
-// NOTE: The pointers in mytalents point to the locations of the string literals
-// used for initialization, which are stored in static memory. The arrays in
-// yourtalents, however, contain copies of the string literals, so each string
-// is stored twice.
 
 // Output:
 // Let's compare talents.
-// My Talents                           Your Talents
-// Adding numbers swiftly               Walking in a straight line
-// Multiplying accurately               Sleeping
-// Stashing data                        Watching television
-// Following instructions to the letter Mailing letters
-// Understanding the C language         Reading email
+// My Talents                              Your Talents
+// Adding numbers swiftly                  Walking in a straight line
+// Multiplying accurately                  Sleeping
+// Stashing data                           Watching television
+// Following instructions to the letter    Mailing letters
+// Understanding the C language            Reading email
 //
 // sizeof mytalents: 40, sizeof yourtalents: 200

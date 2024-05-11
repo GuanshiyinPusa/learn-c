@@ -22,8 +22,9 @@ int main(void) {
 	printf("Now enter the first operand: ");
 	scanf("%d", &first_operand);
 	while (first_operand > 0) {
-		printf("%d %% %d is %d\n", first_operand, second_operand,
-			   first_operand % second_operand);
+		printf(
+			"%d %% %d is %d\n", first_operand, second_operand,
+			first_operand % second_operand);
 		printf("Enter next number for first operand (<= 0 to quit): ");
 		scanf("%d", &first_operand);
 	}

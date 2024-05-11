@@ -38,8 +38,9 @@ int main(void) {
 void Temperatures(double fahrenheit) {
 	const double celsius = FAHRENHEIT_TO_CELSIUS * (fahrenheit - 32.0);
 	const double kelvin = celsius + FAHRENHEIT_TO_KELVIN;
-	printf("%.2f Fahrenheit is %.2f Celsius and %.2f Kelvin.\n", fahrenheit,
-		   celsius, kelvin);
+	printf(
+		"%.2f Fahrenheit is %.2f Celsius and %.2f Kelvin.\n", fahrenheit,
+		celsius, kelvin);
 }
 
 // Output:

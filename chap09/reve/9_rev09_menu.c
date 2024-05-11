@@ -40,9 +40,10 @@ int handle_input(int lower, int upper) {
 					;
 				return input;
 			}
-			printf("\nYour input is outside bound, please input an interger "
-				   "between %d and %d\n\n",
-				   lower, upper);
+			printf(
+				"\nYour input is outside bound, please input an interger "
+				"between %d and %d\n\n",
+				lower, upper);
 			while (getchar() != '\n')
 				;
 		} else {

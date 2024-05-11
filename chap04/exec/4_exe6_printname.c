@@ -17,11 +17,13 @@ int main(void) {
 	printf("Enter your last name: ");
 	scanf("%s", last_name);
 	printf("%s %s\n", first_name, last_name);
-	printf("%*d %*d\n", (int)strlen(first_name), (int)strlen(first_name),
-		   (int)strlen(last_name), (int)strlen(last_name));
+	printf(
+		"%*d %*d\n", (int)strlen(first_name), (int)strlen(first_name),
+		(int)strlen(last_name), (int)strlen(last_name));
 	printf("%s %s\n", first_name, last_name);
-	printf("%-*d %-*d\n", (int)strlen(first_name), (int)strlen(first_name),
-		   (int)strlen(last_name), (int)strlen(last_name));
+	printf(
+		"%-*d %-*d\n", (int)strlen(first_name), (int)strlen(first_name),
+		(int)strlen(last_name), (int)strlen(last_name));
 	return 0;
 }
 

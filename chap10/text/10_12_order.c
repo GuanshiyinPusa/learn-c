@@ -8,8 +8,8 @@ int main(void) {
 	p1 = p2 = data;
 	p3 = moredata;
 	printf("*p1 = %d,\t\t*p2 = %d,\t\t*p3 = %d\n ", *p1, *p2, *p3);
-	printf("*p1++ = %d,\t\t*++p2 = %d,\t\t(*p3)++ = %d\n", *p1++, *++p2,
-		   (*p3)++);
+	printf(
+		"*p1++ = %d,\t\t*++p2 = %d,\t\t(*p3)++ = %d\n", *p1++, *++p2, (*p3)++);
 	printf("*p1 = %d,\t\t*p2 = %d,\t\t*p3 = %d\n ", *p1, *p2, *p3);
 	return 0;
 }

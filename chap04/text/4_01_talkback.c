@@ -12,8 +12,9 @@ int main(void) {
 
 	printf("Hi! What's your first name?\n");
 	scanf("%s", name); // note & is not used
-	printf("%s, what's your weight in pounds?\n",
-		   name); // notice name is a string
+	printf(
+		"%s, what's your weight in pounds?\n",
+		name); // notice name is a string
 	scanf("%f", &weight);
 	size = sizeof(name);
 	letters = strlen(name); // find the length of a string

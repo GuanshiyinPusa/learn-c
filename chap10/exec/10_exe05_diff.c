@@ -5,8 +5,9 @@
 double diff_between_large_small(double *array, int size);
 
 int main(void) {
-	printf("%f\n",
-		   diff_between_large_small((double[]){1.2, 2.3, 3.4, 5.6, 1.0}, 5));
+	printf(
+		"%f\n",
+		diff_between_large_small((double[]){1.2, 2.3, 3.4, 5.6, 1.0}, 5));
 }
 
 double diff_between_large_small(double *array, int size) {
