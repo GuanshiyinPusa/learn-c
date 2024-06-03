@@ -12,13 +12,14 @@
 #define RED 1
 /* mixed colors    */
 #define BLACK 0
-#define YELLOW (RED | GREEN)
-#define MAGENTA (RED | BLUE)
-#define CYAN (GREEN | BLUE)
-#define WHITE (RED | GREEN | BLUE)
+#define YELLOW (RED | GREEN)	   // 1 | 2 = 3
+#define MAGENTA (RED | BLUE)	   // 1 | 4 = 5
+#define CYAN (GREEN | BLUE)		   // 2 | 4 = 6
+#define WHITE (RED | GREEN | BLUE) // 1|2|4 = 7
 
-const char *colors[8] = {"black", "red",	 "green", "yellow",
-						 "blue",  "magenta", "cyan",  "white"};
+const char *colors[8] = {
+	"black", "red", "green", "yellow", "blue", "magenta", "cyan", "white",
+};
 
 struct box_props {
 	bool opaque : 1; // or unsigned int (pre C99)
