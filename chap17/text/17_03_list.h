@@ -1,6 +1,7 @@
 /* list.h -- header file for a simple list type */
-#ifndef LIST_H_
-#define LIST_H_
+#ifndef _17_03_LIST_H_  // Check if _17_03_LIST_H_ has not been defined
+#define _17_03_LIST_H_  // Define _17_03_LIST_H_
+
 #include <stdbool.h>     /* C99 feature         */
 
 /* program-specific declaration */
