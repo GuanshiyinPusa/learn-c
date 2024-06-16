@@ -1,13 +1,12 @@
-/* queue.h -- interface for a queue */
-#ifndef _17_06_QUEUE_H_
-#define _17_06_QUEUE_H_
-#define _QUEUE_H_
+#ifndef _17_06_QUEUE1_H_
+#define _17_06_QUEUE1_H_
 #include <stdbool.h>
 
-/* INSERT ITEM TYPE HERE */
-/* FOR EXAMPLE, */
-typedef int Item;  // for use_q.c
-/* OR typedef struct item {int gumption; int charisma;} Item; */
+// Define Item as a struct with arrive and processtime
+typedef struct item {
+    long arrive;        // Time when the customer arrives
+    int processtime;    // Time to process the customer's query
+} Item;
 
 #define MAXQUEUE 10
 
