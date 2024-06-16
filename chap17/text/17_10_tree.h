@@ -1,5 +1,5 @@
-/* tree.h -- binary search tree                          */
-/*           no duplicate items are allowed in this tree */
+/* tree.h -- binary search tree */
+/* no duplicate items are allowed in this tree */
 
 #ifndef _TREE_H_
 #define _TREE_H_
